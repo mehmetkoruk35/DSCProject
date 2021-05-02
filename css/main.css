@@ -1,0 +1,13 @@
+body {
+    font-family:'Krona One', sans-serif;
+}
+
+#header{
+    background-color: rgb(255, 223, 162);
+}
+#logo {
+    color: indigo;
+}
+#chatinput{
+    
+}
