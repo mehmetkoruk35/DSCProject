@@ -8,6 +8,8 @@ body {
 #logo {
     color: indigo;
 }
-#chatinput{
-    
+#searchbar {
+    justify-content: center;
+    align-items: center;
+    width: 90%;
 }

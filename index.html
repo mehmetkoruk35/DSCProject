@@ -9,6 +9,9 @@
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
     <link rel="stylesheet" href="css/main.css">
 
     <title>DSCGazi Projesi</title>
@@ -18,47 +21,50 @@
     <header>
         <div id="header" class="container-fluid py-1 shadow">
             <div class="row">
-                <div class="col-sm-10">
+                <div class="col-md-8">
                     <h1 id="logo" class="">HadiPaylaş</h1>
+                </div>
+                <div class="col-md-4">
+                    <div id="searchbar" class="input-group rounded">
+                        <input  type="search" class="form-control rounded" placeholder="Ara" aria-label="Search"
+                            aria-describedby="search-addon" />
+                        <button type="button" class="btn btn-primary">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
     </header>
     <div class="container-fluid mt-1">
         <div class="row">
-            <div class="col-3 border">
-                <h5 class="text-left">Navigasyon</h5>
-                <ul>
-                    <li>Lorem.</li>
-                    <li>Et!</li>
-                    <li>Illum.</li>
-                    <li>Vel.</li>
-                    <li>Laborum.</li>
-                    <li>Quo!</li>
-                    <li>Aperiam.</li>
-                    <li>Vitae!</li>
-                    <li>Vero?</li>
-                    <li>Iusto.</li>
-                    <li>Aut.</li>
-                    <li>Recusandae!</li>
-                    <li>Minus.</li>
-                    <li>Sit!</li>
-                    <li>Blanditiis!</li>
-                    <li>Quam.</li>
-                    <li>Excepturi?</li>
-                    <li>Quisquam.</li>
-                    <li>Laboriosam?</li>
-                    <li>Dolores!</li>
+            <div class="col-2 border">
+                <ul class="nav navbar-nav mt-3">
+                    <li><a href="#" class="text-dark">Alışveriş</a></li>
+                    <li><a href="#" class="text-dark">Teknoloji</a></li>
+                    <li><a href="#" class="text-dark">Hayat</a></li>
+                    <li><a href="#" class="text-dark">Ulaşım</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="true"> <span class="nav-label text-dark">Yeme-İçme</span> <span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="text-dark">Çin Mutfağı</a></li>
+                            <li><a href="#" class="text-dark">İtalyan Mutfağı</a></li>
+
+                        </ul>
+                    </li>
+                </ul>
+                </li>
                 </ul>
             </div>
             <div class="col-6 border">
-                <h5 class="text-center">Anasayfa</h5>
-                <textarea name="" id="chatarea" cols="40" rows="10" disabled></textarea>
+                <textarea name="" id="chatarea" cols="57" rows="10" disabled></textarea>
                 <input id="chatinput" type="text" value="">
-                <button id="send" class="button btn-success">Gönder!</button>
+                <button id="send" class="button btn btn-info">Gönder!</button>
             </div>
-            <div class="col-3 border">
-                <h5 class="text-right">Side Bar</h5>
+            <div class="col-4 border">
+
             </div>
         </div>
     </div>
